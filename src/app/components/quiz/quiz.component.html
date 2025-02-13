@@ -1,0 +1,16 @@
+<div class="quiz">
+  <h1 [textContent]="title"></h1>
+
+  <div class="options">
+    <h2 >{{questionSelected}}</h2>
+    <ul>
+      <li (click)="currentOption(option)" *ngFor=" let option of this.questions[this.questionIndex].options">{{ option.name }}</li>
+    </ul>
+  </div><!--  -->
+  <div *ngIf="finish" class="result">
+    <h2 [textContent]="this.result"></h2>
+    <ul>
+      <li  *ngFor=" let result of this.answerSelected">{{ result }}</li>
+    </ul>
+  </div><!-- result -->
+</div><!-- quiz -->

@@ -1,0 +1,82 @@
+{
+  "title":"Já pensou em ter Super-poderes? Quem você seria, Herói ou Vilão?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual é o seu SUPER-PODER ?",
+      "options":[
+        {"id": 1, "name":"Voar", "alias":"B"},
+        {"id": 2, "name":"Explodir coisas", "alias":"A"},
+        {"id": 3, "name":"Controlar as pessoas", "alias":"A"},
+        {"id": 4, "name":"Super Velocidade", "alias":"B"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Quem você salvaria ?",
+      "options":[
+        {"id": 1, "name":"Pessoas e animais em perigo", "alias":"B"},
+        {"id": 2, "name":"Apenas quem conheço", "alias":"A"},
+        {"id": 3, "name":"Apenas pessoas importantes", "alias":"A"},
+        {"id": 4, "name":"Todos", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Qual a sua maior preocupação ao enfretar outro SUPER ser ?",
+      "options":[
+        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
+        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
+        {"id": 3, "name":"Não deixar ninguém se ferir", "alias":"B"},
+        {"id": 4, "name":"Não sujar meu traje", "alias":"A"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "O que vai fazer com seu PODER ?",
+      "options":[
+        {"id": 1, "name":"Ficar rico", "alias":"A"},
+        {"id": 2, "name":"Salvar a cidade", "alias":"B"},
+        {"id": 3, "name":"Acabar com os malfeitores", "alias":"A"},
+        {"id": 4, "name":"Imprecionar as pessoas", "alias":"A"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Como você seria reconhecido(a) pelos seu PODER e identidade ?",
+      "options":[
+        {"id": 1, "name":"Por segurança, manteria meus poderes em segredo", "alias":"B"},
+        {"id": 2, "name":"Sim, todos precisam saber quem manda", "alias":"A"},
+        {"id": 3, "name":"Sim, serei o(a) Salvador(a) da cidade mas não mostrarei minha identidade", "alias":"B"},
+        {"id": 4, "name":"Não, eu não sou uma ameaça. Eu sou quem sou, o super-poder e eu somos um só", "alias":"B"},
+        {"id": 5, "name":"Talvez, pois jamais saberão quem sou", "alias":"A"},
+        {"id": 6, "name":"Sim, serei o Terror dos malfeitores", "alias":"A"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Você salvou uma criança que estava tentando ser Herói. Qual conselho você daria ?",
+      "options":[
+        {"id": 1, "name":"Tome cuidado, preciso que você fique em segurança junto com a sua família", "alias":"B"},
+        {"id": 2, "name":"Parabéns você é um Herói, mas neste momento, seus pais precisam mais de você do que esta cidade", "alias":"B"},
+        {"id": 3, "name":"Exigir que ela peça desculpas", "alias":"A"},
+        {"id": 4, "name":"Dizer: Sem desculpas. Apenas melhore", "alias":"A"},
+        {"id": 5, "name":"Dar uma bronca e desmotivado de tentar ser Herói", "alias":"A"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Seu amigo foi capturado. Você se entregaria para libertar ele ?",
+      "options":[
+        {"id": 1, "name":"Uma pessoa corajosa", "alias":"B"},
+        {"id": 2, "name":"Assustador", "alias":"A"},
+        {"id": 3, "name":"O Terrível", "alias":"A"},
+        {"id": 4, "name":"Incrível", "alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você muito provavelmente seria um Super-Vilão!",
+    "B": "Você muito provavelmente seria um Super-Herói!"
+  }
+}

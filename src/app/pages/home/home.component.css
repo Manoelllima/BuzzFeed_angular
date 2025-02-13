@@ -1,0 +1,12 @@
+.content{
+  height: 100%;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+img{
+  border: 1px solid white;
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem 5rem;
+}
